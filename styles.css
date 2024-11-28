@@ -1,30 +1,23 @@
 /* styles.css */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+html, body {
+    height: 100%; /* Make sure the body and html take up the full viewport height */
 }
 
-main {
-    padding: 20px;
+body {
+    background-image: url('image.png'); /* Replace with your image's URL */
+    background-size: cover; /* Make the image stretch to cover the entire screen */
+    background-position: center center; /* Center the image in the viewport */
+    background-attachment: fixed; /* Make the background fixed while scrolling */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    display: flex; /* To help center any potential content */
+    justify-content: center;
+    align-items: center;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
 
