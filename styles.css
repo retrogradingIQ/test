@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-image: url('image.png'); /* Replace with your image's URL */
+    background-image: url('image.jpg'); /* Replace with your image's URL */
     background-size: cover; /* Make the image stretch to cover the entire screen */
     background-position: center center; /* Center the image in the viewport */
     background-attachment: fixed; /* Make the background fixed while scrolling */
