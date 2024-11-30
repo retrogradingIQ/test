@@ -1,5 +1,5 @@
 const textElement = document.getElementById('bouncingText');
-const text = "Under Construction...";
+const text = "Under⠀Construction...";
 let xVelocity = 5; // Horizontal speed
 let yVelocity = 3; // Vertical speed
 let positionX = 0;
@@ -34,7 +34,7 @@ function updatePosition() {
 function updateColor() {
     hue = (hue + 1) % 360; // Increment hue and wrap around
     const color = `hsl(${hue}, 100%, 50%)`;
-    textElement.style.transition = 'color 0.5s'
+    textElement.style.transition = 'color 3.0s'
     textElement.style.color = color;
     requestAnimationFrame(updateColor);
 }

@@ -13,6 +13,7 @@ body, html {
 #bouncingText {
     font-size: 2em;
     position: absolute;
+    font-family: Courier, monospace;
 }
 
 #bouncingText span {
