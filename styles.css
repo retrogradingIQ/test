@@ -7,11 +7,14 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #1a1a1a;
 }
 
 #bouncingText {
     font-size: 2em;
-    color: black;
     position: absolute;
+}
+
+#bouncingText span {
+    display: inline-block;
 }
